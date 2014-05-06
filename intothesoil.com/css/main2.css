@@ -1,0 +1,129 @@
+/*
+CSS for intothesoil.com
+*/
+
+
+#tagline {
+color: #8c765c;
+font-size: 30px;
+font-style: italic;
+font-family: 'Raleway', Arial, sans-serif;
+font-weight: lighter;
+text-shadow: .5px .5px .5px #111;
+-ms-opacity: 0.8;
+-moz-opacity: 0.8;
+-webkit-opacity: 0.8;
+-ms-opacity: 0.8;
+-o-opacity: 0.8;
+ opacity: 0.8;
+}
+
+
+#captain {
+  color: #614a23;
+  font-size: 20px;
+  font-weight: bolder
+  font-family: 'Raleway', serif;
+  line-height: 125%;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+/*
+header styles...................................................................
+*/
+
+
+h1 {
+font-family: 'Raleway', serif;
+color: #8c765c;
+}
+
+
+h2 {
+font-family: 'Raleway', serif;
+color: #6c9d17;
+line-height: 125%;
+}
+
+
+h3 {
+color: #614a23;
+font: italic normal lighter 1.3em/2 Papyrus, Verdana, sans-serif;
+}
+
+h4 {
+color: #8c765c;
+Font-size: 18px;
+font-family: 'Raleway', Arial, sans-serif;
+}
+
+h5 {
+color: #614a23;
+Font-size: 16px;
+font-family:'Raleway' Arial, sans-serif;
+}
+
+
+/*
+main styles...................................................................
+*/
+
+li {
+color: #8c765c;
+font-size: 16px;
+}
+
+
+body {
+font-family: 'Raleway', serif;
+font-size: 15px;
+background-color:#F5F0E6;
+line-height: 125%;
+width: 50%;
+padding: 15px;
+text-align: justify;
+}
+
+/*
+navigation styles...................................................................
+*/
+
+#mainnav a {
+font-family: 'Raleway', serif;
+color: #6c9d17;
+Font-size: 22px;
+}
+
+a {
+color: #F5F0E6;
+}
+
+a:link {
+color: #8c765c;
+}
+
+a:visited {
+color: black;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+color: #8c765c;
+}
+
+
+
+
+
+/*
+footer styles...................................................................
+*/
+#footer p {
+line-height: 150%;
+}

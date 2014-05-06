@@ -1,0 +1,1021 @@
+/*
+CSS for intothesoil.com
+*/
+
+/*
+main styles...................................................................
+*/
+
+body {
+background-color: #614a23;
+background-repeat: repeat-x;
+max-width: 960px;
+font: 100%/1.5em 'Raleway', Arial, serif; /* 16px*/
+margin: 36px auto;
+}
+
+#wrapper {
+width: 100%; /*900px*/
+margin: 0 auto;
+overflow: hidden;
+}
+
+p {
+font-family: 'Raleway', serif;
+font-size: .875em; /* 14px/16px */
+color: #614a23;
+}
+
+ul li {
+list-style: square;
+padding-bottom: 3.33333333%; /* 10px/300w*/
+}
+
+strong {
+height: 30%;
+font-family: Papyrus, Arial, serif;
+font-size: 1.625em; /*26/16*/
+}
+
+
+/*
+home page styles...................................................................
+*/
+
+#home {
+background-color: #F5F0E6;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%; /*20px/900*/ 
+border-width: 1px 0;
+border-top:1px solid #614a23;
+}
+
+#logo {
+border: 1px solid #F5F0E6;
+width: 32.67973856%; /*300/918*/
+float: left;
+margin: 0% 6.6666667%; /*20px/300px*/
+padding: 0%;
+}
+
+#logo img {
+max-width: 100%; /*300px*/
+height: auto; /*75px*/
+}
+
+#fork_container {
+border: 1px solid #F5F0E6;
+width: 60.45751634%; /*555/918 w555-h395*/
+float: left;
+margin-left: 1.08932462%; /*10px/918*/ 
+}
+
+#fork_container img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+ 
+#mission {
+border-style: dotted;
+border-color: #614a23;
+background-color: #f1e5df;
+width: 33.33333333%; /*300px/900px*/
+height: 390px;
+font-family: 'Raleway', Arial, sans-serif; 
+color: #8c765c; 
+border-radius: 2px;
+float: right;
+margin-right: 1.44444444%; /*13px /900px*/ 
+padding-right: 1.66666667%; /*5px/300px*/
+padding-top: 1.11111111%;
+Font-size: 1.125em; /* 18px/16px */
+}
+
+.homer {
+color: #614a23;
+text-align: center;
+font: italic normal lighter 1.3em/2 Papyrus, Verdana, sans-serif;
+clear: both;
+padding-right: .22222222%; /*2px*/
+padding-left: .22222222%; /*20px/900*/
+padding-top: 2.22222222%; 
+padding-bottom:2.22222222%;
+}
+
+
+/*
+Page 1 styles Featured Plant...................................................................
+*/
+
+#page1 {
+background-color:#F5F0E6;
+border-top:1px solid #614a23;
+border-width: 1px 0;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%; /*20px/900*/ 
+}
+
+#ptree {
+border: 1px solid #F5F0E6;
+width: 60.32608696%; /*555/918 w555-h370*/
+float: left;
+margin-left: 1.08932462%; /*10px/918*/ 
+}
+
+#ptree img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+#tips {
+border-style: dotted;
+border-color: #614a23;
+background-color: #f1e5df;
+width: 33.3333333333%; /*300px*/
+height: 365px;
+background-color: #f1e5df;
+font-family:'Raleway', Arial, sans-serif;
+color: #614a23;
+font-size: .875em;
+border-radius: 2px;
+float: right;
+margin-right: 1.44444444%; /*13px /900px*/ 
+padding-right: 1.66666667%; /*5px/300px*/
+margin-top: 0%;
+}
+
+#soldiers {
+border: 1px solid #F5F0E6;
+width: 58.82352941%; /*540/918*/
+float: left;
+margin-left: 1.08932462%; /*10px/918*/
+}
+
+#soldiers img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+#johnsmith {
+border: 1px solid #F5F0E6;
+width: 34.8583878%; /*h395px w320px/918*/
+float: left;
+margin-left: 2.17864924%; /*20px/918*/ 
+}
+
+#johnsmith img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+.captain {
+color: #614a23;
+text-align: center;
+font: italic normal lighter 1.1em/2 Papyrus, Verdana, sans-serif;
+padding-right: .22222222%; /*2px*/
+padding-left: .22222222%; /*20px/900*/
+padding-top: 2.22222222%; 
+padding-bottom: 0%; /*1.11111111%; /*2.22222222%;*/
+margin-bottom: 0%;
+clear: both;
+}
+
+#settlers {
+-moz-column-count: 3;
+line-height: 100%;
+padding-top: 2.22222222%; 
+padding-right: 1.11111111%;
+padding-bottom: 2.22222222%;
+padding-left:   1.11111111%; /*20px 10px 20px 10px;/900px*/
+margin-right: 1.11111111%;
+margin-left: 1.11111111%; /*0px 10px 0px 10px/900px;*/
+clear: both;
+}
+
+/*
+Page 2 styles Featured Farmer...................................................................
+*/
+
+#page2 {
+background-color:#F5F0E6;
+border-top:1px solid #614a23;
+border-width: 1px 0;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%;/*20px/900*/
+margin-top: 2.22222222%;  
+}
+
+
+#farm {
+border: 1px solid #F5F0E6;
+width:58.82352941%;/*h395px w540/918*/
+float: left;
+margin-left: 1.08932462%; /*10px/918*/ 
+}
+
+#farm img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+#fruit {
+border: 1px solid #F5F0E6;
+width: 33.76906318%; /*h395 w310px/918 */
+float: left;
+margin-left: 2.17864924%; /*20px/918*/ 
+}
+
+#fruit img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+#story {
+clear: both;
+-moz-column-count: 3;
+padding-top: 2.22222222%;;
+padding-right: 1.11111111%;
+padding-bottom: 2.22222222%;
+padding-left:   1.11111111%; /*20px 10px 20px 10px;/900px*/
+margin-right: 1.11111111%;
+margin-left: 1.11111111%; /*0px 10px 0px 10px/900px;*/
+}
+
+/*
+Page 3 styles Plant Guide...................................................................
+*/
+
+#page3 {
+background-color: #F5F0E6;
+border-top: 1px solid #614a23;
+border-width: 1px 0;
+margin-top: 2.22222222%;
+margin-right: 2.22222222%; 
+margin-bottom: 2.22222222%;
+margin-left: 2.22222222%; /*20px/900*/ 
+}
+
+#usmap {
+border: 1px solid #F5F0E6;
+width: 60.45751634%; /*h395 w555/918*/
+float: left;
+margin-left: 4.35729847%; /*40px/918*/
+margin-bottom: 1.08932462%; /*10px*/
+}
+
+#usmap img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+#legend {
+border: 1px solid #F5F0E6;
+width: 26.14379085%; /*h375 w240/918*/
+margin-left: 4.35729847%; /*40x/918*/ 
+margin-bottom: 1.08932462%; 
+float: left;
+}
+
+#legend img {
+max-width: 100%;
+height: auto;
+border: 1px solid #666;
+}
+
+.note {
+border-bottom: 1px solid #614a23;
+padding: 2.22222222%; /*20px;*/
+text-align: center;
+clear: both;
+}
+
+
+/*
+Page 3 Plant Guide table styles...................................................................
+*/
+
+
+#style1 {
+padding-bottom: 2.17864924%;
+padding-top: 2.17864924%; /*20/918*/
+font-size: 1.25em;
+}
+
+table {
+border-collapse: collapse;
+margin-right: 1.08932462%; /*10px/918*/
+margin-left: 1.08932462%; /*10px/918*/
+}
+
+th {
+border: 1px solid #666;
+background-color: #614a23;
+color: #F5F0E6;
+text-align: center;
+font-size: 1.125em;
+padding: 0.2em;
+font-weight: bold;
+}
+
+td {
+border: 1px solid #666;
+font-size: .75em;
+color: #614a23;
+padding: 0.2em;
+text-align: center;
+}
+
+#video {
+text-align: center;
+padding: 2.22222222%; /*20px;*/
+}
+
+/*
+Page 4 styles Plant Gallery..................................................................
+*/
+
+#page4 {
+background-color:#F5F0E6;
+border-width: 1px 0;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%; /*20px/900*/ 
+height: 630px;
+border-bottom:1px solid #614a23;
+margin-top: 2.22222222%; 
+}
+
+
+#spruce {
+border: 1px solid #F5F0E6;
+width: 21.78649237%; /*200px/918*/
+float: left;
+margin-top: 2.17864924%; /*20px*/
+margin-right: 0.54466231%; /*5px*/ /*10px*/
+margin-bottom: 1.08932462%;
+margin-left: 3.26797386%;  /*margin 20px 10px 10px 20px/918*/
+}
+
+#spruce img {
+border: 1px solid #666;
+max-width: 100%;
+height: auto;
+}
+
+#saskatoon {
+border: 1px solid #F5F0E6;
+width: 21.78649237%; /*200px/918*/
+float: left;
+margin-top: 2.17864924%; /*20px*/
+margin-right: 0.54466231%; /*5px*/
+margin-bottom: 1.08932462%; /*10px*/
+margin-left: 1.08932462%; /*10px*/ /*margin: 20px 5px 10px 10px */
+}
+
+#saskatoon img {
+border: 1px solid #666;
+max-width: 100%;
+height: auto;
+}
+
+#pawpaws {
+border: 1px solid #F5F0E6;
+width: 21.78649237%; /*200px/918*/
+float: left;
+margin-top: 2.17864924%; /*20px*/
+margin-right: 0.54466231%; /*5px*/
+margin-bottom: 1.08932462%; /*10px*/
+margin-left: 1.08932462%; /*10px*/ /*margin: 20px 5px 10px 10px */
+}
+
+#pawpaws img {
+border: 1px solid #666;
+max-width: 100%;
+height: auto;
+}
+
+#saguaro {
+border: 1px solid #F5F0E6;
+width: 21.78649237%; /*200px/918*/
+float: left;
+margin-top: 2.17864924%; /*20px*/
+margin-right: 2.17864924%; 
+margin-bottom: 1.08932462%; /*10px*/
+margin-left: 1.08932462%; /*10px*/
+}
+
+#saguaro img {
+border: 1px solid #666;
+max-width: 100%;
+height: auto;
+}
+
+/*
+Page 5 styles Recipes..................................................................
+*/
+
+#page5 {
+background-color:#F5F0E6;
+border-top:1px solid #614a23;
+border-width: 1px 0;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%; /*20px/900*/ 
+margin-top: 2.22222222%; 
+}
+
+#brew {
+padding: 1.11111111%;
+margin-right:1.11111111%; /*10px*/
+margin-left: 1.11111111%;
+}
+
+
+/*
+Page 6 styles Contact.................................................................
+*/
+
+#page6 {
+background-color:#F5F0E6;
+border-top:1px solid #614a23;
+border-width: 1px 0;
+margin-right: 2.22222222%; 
+margin-left: 2.22222222%; /*20px/900*/ 
+}
+
+
+form {
+display: block;
+width: 100%;
+}
+
+fieldset {
+margin-left: 12.8540305%;
+width: 71.89542484%; /*660/918*/
+text-align: center;
+border: 2px dotted #614a23;
+background-color: #f1e5df;
+}
+
+#comment {
+text-align: center;
+font-size:1.25em;
+}
+
+input:focus {
+border: 2px solid #FFB84D;
+}
+
+input {
+width: 33.58208955%;
+padding-top: 1.5%;
+border-radius: 2px;
+border: 1px solid #8c765c;
+margin-right: 20.45454545%; /*135/660*/
+margin-bottom: 1.51515152%; /*10/660*/
+margin-top: 0%;
+}
+
+label {
+Font-size: 1em;
+color: #614a23;
+margin-right: 1.49253731%;
+clear: left;
+padding-left: 20.45454545%; /*135/660*/
+}
+
+.require {
+clear: right;
+font-size:.85em;
+text-align: right; 
+padding: 0%; 
+margin-right: 35.60606061%; /*235/660*/
+margin-bottom: 0%;
+}
+
+#message:focus {
+border: 2px solid #FFB84D;
+}
+
+
+#regarding {
+margin-bottom: 1.04166667%;  /*10/960*/ 
+Font-size: .75em;
+padding: .52%;
+border-radius: 1px;
+border: 1px solid #8c765c;
+color: #614a23;
+font-family: Arial, 'Raleway', serif;
+font-weight: bold;
+clear: both;
+margin-right: 44.27083333%; /*425/960*/
+}
+
+.button {
+padding: .52%;
+width:20%;
+Font-size: .75em;
+border-radius: 1px;
+border: 1px solid #8c765c;
+color: #614a23;
+font-family: Arial, 'Raleway', serif;
+font-weight: bold;
+clear: both;
+margin-top: 2%;
+margin-right: 37.12121212%; /*245/660*/
+margin-bottom: 2.08333333%;  /*20px*/
+}
+
+#contact_phone {
+margin-right: -35.60606061%; 
+margin-left: -33.58208955%;
+}
+
+#name_first {
+margin-left: 4%;
+}
+
+#name_last {
+margin-left: 4.58333333%; /*44/960*/
+}
+
+
+/*
+navigation styles...................................................................
+*/
+
+
+.nav {
+   
+    border:1px solid #6c9d17;
+    border-width: 1px 0;
+    list-style-type: none;
+    margin:0 auto;
+    padding:0%;
+    text-align:center;
+    overflow: hidden;
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav a {
+    font-family: 'Raleway', serif;
+    color: #6c9d17;
+    Font-size: 1.25em; /* 20px/16px */
+    display:inline-block;
+    padding: 1.633998693%; /*15/918px*/
+    text-decoration: none;
+    }
+    
+a:hover {
+color: #FFB84D;
+}
+
+.states {
+   
+    border:1px solid #666;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    clear: both;
+}
+
+.states li {
+    display:inline;
+}
+
+.states a {
+    font-family: 'Raleway', serif;
+    color: #614a23;
+    display:inline-block;
+    padding:1.11111111% /*10px/900*/
+}
+
+a:hover {
+color: #FFB84D;
+}
+
+a {
+color: #614a23;
+}
+
+a:link {
+color: #614a23;
+}
+
+a:visited {
+color: #669900;
+}
+
+a:hover {
+text-decoration: none;
+color: #FFB84D;
+}
+
+a:active {
+color: #FFFF99;
+}
+
+/*
+header styles...................................................................
+*/
+
+
+h1 {
+color: #614a23;
+font-size: 1.5em; /* 24px/16px */
+font-family: Papyrus, Arial, sans-serif;
+font-weight: lighter;
+text-shadow: .3px .3px .3px #111;
+-ms-opacity: 0.7;
+-moz-opacity: 0.7;
+-webkit-opacity: 0.7;
+-ms-opacity: 0.7;
+-o-opacity: 0.7;
+ opacity: 0.7;
+ float: right;
+ margin-top: 3.88888889%; /*35/900*/ 
+ margin-right: 2.22222222%;
+ margin-bottom: 2.22222222%;  /*20/900*/ 
+ margin-left: 0%;
+ padding-top: 1.11111111%; /*10/900*/
+ padding-bottom: 1.11111111%;
+}
+
+h2 {
+font-family: 'Raleway', serif;
+color: #6c9d17;
+font-size: 1.375em; /* 22px/16px */
+margin: 0 auto;
+text-align: center;
+padding-top: 2.22222222%; /*20px/900*/
+padding-bottom: .55555556%; /*5px/900*/
+
+}
+
+h3 {
+color: #8c765c;
+Font-size: 1.25em; /* 20px/16px */
+text-align: center;
+font-family: Papyrus, Verdana, sans-serif;
+}
+
+h4 {
+color: #614a23;
+font-family:'Raleway', Arial, sans-serif;
+padding-top: 0%;
+padding-right: 1.11111111%; /*10px*/
+padding-bottom: 0%;
+padding-left: 1.11111111%; /*10px*/
+Font-size: 1em;
+text-align: center;
+clear: both;
+text-decoration: underline;
+}
+
+h5 {
+color: #8c765c;
+Font-size: 1.125em; /* 18px/16px */
+text-align: center;
+font-family: Papyrus, Verdana, sans-serif;
+margin-top: 1.11111111%; /*10/900px*/
+margin-right: 2.22222222%; /*20/900px*/
+margin-bottom: 1.11111111%;
+margin-left:  2.22222222%; 
+padding-top: 1.11111111%;
+}
+
+h6 {
+color: #614a23;
+font-family:'Raleway', Arial, sans-serif;
+padding-top: 0%;
+padding-right: 1.11111111%; /*10px*/
+padding-bottom: 0%;
+padding-left: 1.11111111%; /*10px*/
+Font-size: 1em;
+text-align: center;
+}
+
+/*
+footer styles...................................................................
+*/
+#footer p {
+line-height: 150%;
+}
+
+/*
+media queries...................................................................
+*/
+
+/* tablet portrait size to standard 960 (devices and browsers)*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+#home { background-color: #E6E6B8;}
+#page1 { background-color: #E6E6B8;}
+#page2 { background-color: #E6E6B8;}
+#page3 { background-color: #E6E6B8;}
+#page4 { background-color: #E6E6B8;}
+#page5 { background-color: #E6E6B8;}
+#page6 { background-color: #E6E6B8;}
+
+#mission {display: none;}
+
+.nav a {color: #614a23; font-size: 1.0625em; padding: 1.30208333%; /*10px/768*/
+}
+.states a { color: #614a23;}
+
+#logo {
+margin-top: 1.11111111%;
+border: 1px solid #E6E6B8;
+width: 31.25%; /*150/480*/ /*scaled smaller. I wanted to use it for both screen-sizes*/
+margin-left: 0%;
+margin-right: 0%;
+padding: 0%;
+}
+
+#fork_container {
+border: 1px solid #FFF1B8;
+width: 96.875%;
+}
+
+
+h1 {
+color: #614a23;
+font-size: 1.375em; /* 22px/16px */
+}
+
+.homer {
+font: italic normal lighter 1.25em/2 Papyrus, Verdana, sans-serif;
+}
+
+h4 {
+margin-bottom: 1.302083333%; /*10/768*/
+padding: 0%;
+}
+
+ul li {
+padding-bottom: .65104167%; /* 5px/768*/
+}
+
+h5 {
+margin-top: 1.11111111%; /*10/720*/
+margin-bottom: 0%; 
+padding-top: 0%;
+}
+
+
+#fork_container {
+border: 1px solid #E6E6B8;
+}
+
+#tips {
+border-style: none;
+border-color: #E6E6B8;
+background-color: #E6E6B8;
+Font-size: 1em;
+float: left;
+padding-right: 1.11111111%;
+padding-left: 1.11111111%;
+margin: 0%;
+width: 90%;
+height: auto;
+}
+
+.captain {
+font: italic normal lighter 1em/2 Papyrus, Verdana, sans-serif;
+border-top:1px solid #614a23;
+padding-top: 3.90625%;
+}
+
+#ptree {
+border: 1px solid #E6E6B8;
+margin-bottom: 0%;
+width: 90%;
+margin-left: 3.90625%; /*20px/768*/
+}
+
+#johnsmith {
+border: 1px solid #E6E6B8;
+}
+
+#soldiers {
+border: 1px solid #E6E6B8;
+}
+
+#story {
+-moz-column-count: 2;
+}
+
+#settlers {
+-moz-column-count: 2;
+}
+
+fieldset {
+border: 2px dotted #614a23;
+background-color: #EBEBE0;
+}
+
+}
+
+/* mobile landscape size to tablet portrait (devices and browsers)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#mission {display: none;}
+#home { background-color: #FFF1B8;}
+#page1 { background-color: #FFF1B8;}
+#page2 { background-color: #FFF1B8;}
+#page3 { background-color: #FFF1B8;}
+#page4 { background-color: #FFF1B8;}
+#page5 { background-color: #FFF1B8;}
+#page6 { background-color: #FFF1B8;}
+
+.nav a {color: #614a23;}
+
+h1 { 
+color: #614a23;
+font-size: 1.25em;
+}
+
+#logo {
+margin-top: 1.11111111%;
+border: 1px solid #FFF1B8;
+width: 31.25%; /*150/480*/
+margin-left: 0%;
+margin-right: 0%;
+padding: 0%;
+}
+
+#fork_container {
+border: 1px solid #FFF1B8;
+width: 96.875%; /*465/480*/
+}
+
+#tips {
+border-style: none;
+border-color: #FFF1B8;
+background-color: #FFF1B8;
+Font-size: 1em;
+float: left;
+padding-right: 0%;
+padding-left: 2%;
+margin: 0%;
+width: 90%;
+height: auto;
+}
+
+#ptree {
+border: 1px solid #FFF1B8;
+margin-bottom: 0%;
+width: 90%;
+margin-left: 4.58333333%; /*22px/480*/
+}
+
+#johnsmith {
+border: 1px solid #FFF1B8;
+}
+
+#soldiers {
+border: 1px solid #FFF1B8;
+}
+
+h5 {
+text-align: center;
+}
+
+.captain {
+font: italic normal lighter 1em/2 Papyrus, Verdana, sans-serif;
+border-top:1px solid #614a23;
+padding-top: 3.90625%;
+}
+
+#story {
+-moz-column-count: 1;
+}
+
+#settlers {
+-moz-column-count: 1;
+}
+
+fieldset {
+border: 2px dotted #614a23;
+background-color: #F5F0E6;
+font-size: .75em;
+}
+
+}
+
+
+/* mobile portrait size to mobile landscape size (devices and browsers)*/
+@media only screen and (max-width: 479px) {
+
+#mission {display: none;}
+#home { background-color: #F0E0B2;}
+#page1 { background-color: #F0E0B2;}
+#page2 { background-color: #F0E0B2;}
+#page3 { background-color: #F0E0B2;}
+#page4 { background-color: #F0E0B2;}
+#page5 { background-color: #F0E0B2;}
+#page6 { background-color: #F0E0B2;}
+
+.nav a {color: #614a23;}
+
+
+h1 { 
+color: #614a23;
+font-size: 1em;
+}
+
+#logo {
+margin-top: 1.11111111%;
+border: 1px solid #F0E0B2;
+width: 31.25%; /*150/480*/
+margin-left: 0%;
+margin-right: 0%;
+padding: 0%;
+}
+
+#fork_container {
+border: 1px solid #F0E0B2;
+width: 96.875%; /*465/480*/
+}
+
+.homer {
+font: italic normal lighter 1.0em/2 Papyrus, Verdana, sans-serif;
+padding-right: .22222222%; /*2px*/
+padding-left: .22222222%; /*2px/900*/
+padding-top: 0%; 
+padding-bottom:0%;
+}
+
+#tips {
+border-style: none;
+border-color: #F0E0B2;
+background-color: #F0E0B2;
+Font-size: 1em;
+float: left;
+padding-right: 0%;
+padding-left: 2%;
+margin: 0%;
+width: 90%;
+height: auto;
+}
+
+#ptree {
+border: 1px solid #F0E0B2;
+margin-bottom: 0%;
+width: 90%;
+margin-left: 4.58333333%; /*22px/480*/
+}
+
+#johnsmith {
+border: 1px solid #F0E0B2;
+}
+
+#soldiers {
+border: 1px solid #F0E0B2;
+}
+
+h5 {
+text-align: center;
+}
+
+.captain {
+font: italic normal lighter 1em/2 Papyrus, Verdana, sans-serif;
+border-top:1px solid #614a23;
+padding-top: 3.90625%;
+}
+
+#story {
+-moz-column-count: 1;
+}
+
+#settlers {
+-moz-column-count: 1;
+}
+
+
+fieldset {
+margin-left: 0%;
+text-align: center;
+border: none;
+background-color: #F0E0B2;
+font-size: .75em;
+}
+
+#regarding {
+margin-bottom: 0%;   
+margin-right: 0%;
+}
+
+
+}
+
+
